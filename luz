@@ -1,0 +1,15 @@
+import math
+def rzeczywista():
+    x = float(input("podaj liczbę rzeczywistą: "))
+    return x
+
+def czesc_ulamkowa():
+    x = rzeczywista()
+    print("część ułamkowa liczby rzeczywistej :" ,(math.modf(x)[0]))
+    
+
+def main():
+    czesc_ulamkowa()
+
+if __name__=='__main__':
+    main()
