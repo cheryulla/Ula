@@ -11,5 +11,6 @@ def czesc_ulamkowa():
 def main():
     czesc_ulamkowa()
 
+
 if __name__=='__main__':
     main()
